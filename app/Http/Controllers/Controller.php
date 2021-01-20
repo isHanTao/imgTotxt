@@ -11,9 +11,10 @@ use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
-    protected $appID = "22977510";
-    protected $appKey = "FbPfkOUiOgTISp0Osy6qjwoy";
-    protected $appSec = "zGF2GQooXkF3UAHSz75onf30mAlC0EYr";
+    // 百度云api https://cloud.baidu.com/product/ocr_general
+    protected $appID = "****";
+    protected $appKey = "***";
+    protected $appSec = "***";
     private $max_time = 1;
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function upload(Request $request){
